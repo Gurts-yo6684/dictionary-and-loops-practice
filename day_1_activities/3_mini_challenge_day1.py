@@ -37,6 +37,7 @@
     #    - Primary Email
     #    - Secondary Email
 
+
 # 2. Combine the First and Last name into this format:
     #    "Last, First"  
 
@@ -56,5 +57,25 @@
         #    - Do NOT add the student
         #    - Display an error message saying the CPS ID is already taken
 
+import student_data
+students = student_data.students
 
+id = input("What is your CPS Id numbers?")
+for student in students:
+    if id == student['CPSID']:
+        print(student['CPSID'] )
+        print("this works")
 
+first_name = input("What is your name")
+for student in students:
+    if id == student['FName']:
+        print(student['FName'])
+        print("this works")
+
+last_name = input("What is your last name?")
+for student in students:
+    if last_name == students:
+        print(student['LName'])
+        print("this works")
+
+middle_name = input("")
