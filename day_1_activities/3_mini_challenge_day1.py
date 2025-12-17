@@ -78,4 +78,26 @@ for student in students:
         print(student['LName'])
         print("this works")
 
-middle_name = input("")
+middle_name = input("What is your middle name?")
+for student in students:
+    if middle_name == students:
+        print(student['MName'])
+        print("this works")
+
+Hr_second = int(input("What is your Homeroom?"))
+for student in students:
+    if Hr_second == students:
+        print(student['HR'])
+        print("this works")
+
+Gl_second = int(input("What is your Grade Level?"))
+for student in students:
+    if Gl_second == students:
+        print(student['GL'])
+        print("this works")
+
+Email_second = input("What is your Email?")
+for student in students:
+    if Email_second == students:
+        print(student['Email'])
+        print("this works")
